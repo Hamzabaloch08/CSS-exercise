@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 244, 255);
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding: 50px 0px; 
+}
+
+.container>h1{
+    text-align: center;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.child-container{
+    display: flex;
+    justify-content: center;
+    gap: 0px 250px;
+    padding: 30px 100px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card>h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.card>p{
+    font-size: 0.7rem;
+}
+
+.card>img{
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card3>img{
+    width: 90px;
+}
+
+.second{
+    margin-top: -70px;
+}
+
+.ios>img{
+    width: 40px;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.button-box>button{
+    background-color: rgb(255, 0, 43);
+    border: none;
+    height: 2.6rem;
+    width: 10%;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.button-box>button:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.button-box>button:active{
+    background-color: rgb(201, 0, 33);
+}
